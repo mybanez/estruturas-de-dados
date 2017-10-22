@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\ArvoreBinariaPnt.h" />
+    <ClInclude Include="Header Files\ArvoreBinariaVet.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaBinaria.h" />
+    <ClInclude Include="Header Files\ArvoreImpl.h" />
+    <ClInclude Include="Header Files\ArvoreGenericaPnt.h" />
+    <ClInclude Include="Header Files\Arvore.h" />
+    <ClInclude Include="Header Files\ArvorePesquisa.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaAVL.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaB.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaBMais.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaNAria.h" />
+    <ClInclude Include="Header Files\ArvorePesquisaRB.h" />
+    <ClInclude Include="Header Files\BDNomes\ArvoreNomes.h" />
+    <ClInclude Include="Header Files\Config.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\ArvoreBinariaVet.c" />
+    <ClCompile Include="Source Files\ArvoreBinariaPnt.c" />
+    <ClCompile Include="Source Files\ArvoreGenericaPnt.c" />
+    <ClCompile Include="Source Files\ArvoreGenericaPnt2.c" />
+    <ClCompile Include="Source Files\Arvore.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaAVL.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaB.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaIter.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaRec.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaRec2.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaBMais.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaNAria.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaNAriaIter.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaNAriaRec.c" />
+    <ClCompile Include="Source Files\ArvorePesquisaRB.c" />
+    <ClCompile Include="Source Files\ExerciciosArvoreBinaria.c" />
+    <ClCompile Include="Source Files\ExerciciosArvoreGenerica.c" />
+    <ClCompile Include="Source Files\ExerciciosArvorePesquisaAVL.c" />
+    <ClCompile Include="Source Files\ExerciciosArvorePesquisaRB.c" />
+    <ClCompile Include="Source Files\Principal.c" />
+    <ClCompile Include="Source Files\TesteArvoreBinaria.c" />
+    <ClCompile Include="Source Files\TesteArvoreGenerica.c" />
+    <ClCompile Include="Source Files\TesteNAria.c" />
+    <ClCompile Include="Source Files\Trabalhos\BDAlunos\MenuAlunos.c" />
+    <ClCompile Include="Source Files\Trabalhos\BDNomes\ArvoreNomes.c" />
+    <ClCompile Include="Source Files\Trabalhos\BDNomes\MenuNomes.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source Files\Trabalhos\BDNomes\Nomes.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A492A32-4B16-49A1-B77C-BFBA470A00C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EstruturasdeDadosII</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\muril\Documents\Visual Studio 2017\ED2\Header Files;C:\Users\muril\Documents\Visual Studio 2017\ED2\Header Files\BDNomes;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\muril\Documents\Visual Studio 2015\Projects\ED2\Header Files\BDNomes;C:\Users\muril\Documents\Visual Studio 2015\Projects\ED2\Header Files;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\muril\Documents\Visual Studio 2015\Projects\ED2\Header Files\BDNomes;C:\Users\muril\Documents\Visual Studio 2015\Projects\ED2\Header Files;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\OneDrive\Código\estruturas-de-dados\ed2\Header Files\BDNomes;D:\OneDrive\Código\estruturas-de-dados\ed2\Header Files;$(IncludePath)</IncludePath>
+    <CodeAnalysisRuleSet>NativeRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <CompileAs>CompileAsC</CompileAs>
+      <MinimalRebuild>false</MinimalRebuild>
+      <AdditionalIncludeDirectories>C:\Users\Murilo\SkyDrive\FFB\Disciplinas\Estrutura de Dados II\código\Header Files\BDNomes;C:\Users\Murilo\SkyDrive\FFB\Disciplinas\Estrutura de Dados II\código\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(ProjectDir)Source Files\Trabalhos\BDNomes\Nomes.txt" "$(ProjectDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <HeapReserveSize>8589934592</HeapReserveSize>
+      <HeapCommitSize>8589934592</HeapCommitSize>
+      <LargeAddressAware>true</LargeAddressAware>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

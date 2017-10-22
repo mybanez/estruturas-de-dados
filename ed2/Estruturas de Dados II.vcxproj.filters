@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Árvore Genérica">
+      <UniqueIdentifier>{df420d95-90ef-411b-a55b-da1337eb0994}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Árvore Binária">
+      <UniqueIdentifier>{74a8d979-ef15-4929-9cdc-bb42eec52afc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Árvore N-Ária">
+      <UniqueIdentifier>{3ab5a3e6-79d3-4b54-b38d-2766fc7934b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Árvore N-Ária">
+      <UniqueIdentifier>{36c7a63c-6ad2-4218-aa37-3afa59a68ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Árvore Binária">
+      <UniqueIdentifier>{ef23eec5-75f4-49a1-8e35-378deabb3a87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Árvore Genérica">
+      <UniqueIdentifier>{094b981c-fc61-4949-947b-6a5c24d44a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Árvore Binária\Trabalho 1">
+      <UniqueIdentifier>{a9fb5334-d43f-4591-b973-de6a273da315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Árvore Binária\Trabalho 2">
+      <UniqueIdentifier>{ada6f3d3-a828-4d07-85da-31e52d22613c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Árvore Binária\Trabalho 1">
+      <UniqueIdentifier>{a6b48c31-595c-40c3-859f-7bac5a820079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\ArvoreGenericaPnt.h">
+      <Filter>Header Files\Árvore Genérica</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaRB.h">
+      <Filter>Header Files\Árvore Binária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaB.h">
+      <Filter>Header Files\Árvore N-Ária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaBMais.h">
+      <Filter>Header Files\Árvore N-Ária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaNAria.h">
+      <Filter>Header Files\Árvore N-Ária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Arvore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvoreImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaAVL.h">
+      <Filter>Header Files\Árvore Binária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BDNomes\ArvoreNomes.h">
+      <Filter>Header Files\Árvore Binária\Trabalho 1</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisa.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvoreBinariaVet.h">
+      <Filter>Header Files\Árvore Binária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvorePesquisaBinaria.h">
+      <Filter>Header Files\Árvore Binária</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ArvoreBinariaPnt.h">
+      <Filter>Header Files\Árvore Binária</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\Arvore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvoreGenericaPnt.c">
+      <Filter>Source Files\Árvore Genérica</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvoreGenericaPnt2.c">
+      <Filter>Source Files\Árvore Genérica</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvoreBinariaPnt.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaAVL.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaIter.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaRec.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaBinariaRec2.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaRB.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ExerciciosArvoreBinaria.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ExerciciosArvoreGenerica.c">
+      <Filter>Source Files\Árvore Genérica</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ExerciciosArvorePesquisaAVL.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ExerciciosArvorePesquisaRB.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaB.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaNAriaRec.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaNAria.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaNAriaIter.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvoreBinariaVet.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TesteArvoreBinaria.c">
+      <Filter>Source Files\Árvore Binária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TesteArvoreGenerica.c">
+      <Filter>Source Files\Árvore Genérica</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TesteNAria.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Trabalhos\BDNomes\ArvoreNomes.c">
+      <Filter>Source Files\Árvore Binária\Trabalho 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ArvorePesquisaBMais.c">
+      <Filter>Source Files\Árvore N-Ária</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Principal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Trabalhos\BDNomes\MenuNomes.c">
+      <Filter>Source Files\Árvore Binária\Trabalho 1</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Trabalhos\BDAlunos\MenuAlunos.c">
+      <Filter>Source Files\Árvore Binária\Trabalho 2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Source Files\Trabalhos\BDNomes\Nomes.txt">
+      <Filter>Source Files\Árvore Binária\Trabalho 1</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
